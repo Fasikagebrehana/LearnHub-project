@@ -1,0 +1,206 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 40px;
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  .dropdown-content
+       {  
+        display: none;  
+        position: absolute;  
+        background-color: lightblue;  
+       min-width: 160px;  
+       box-shadow: 5px 8px 10px 0px black; 
+       } 
+      .dropdown-content a 
+      {  
+       color: black;  
+       padding: 12px 16px;  
+       text-decoration: none;  
+       display: block;  
+       text-align: center;  
+     }  
+    .dropdown-content a:hover 
+     {  
+      background-color: gray;  
+      color:white;  
+     }  
+    .dropdown:hover .dropdown-content 
+    { 
+     display: block; 
+    }
+    .main {
+        padding-top:100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 1px;
+        display: flex;
+        justify-content:space-between ;
+      }
+      .main-content { 
+          
+           padding-right: 15px; 
+          padding-left: 15px; 
+        } 
+        
+        .main-title {
+          font-weight: bold;
+         
+        }
+        
+        
+        
+        .image1 {
+          padding-right: 100px;
+          height: 350px;
+          width: 300px;
+          border-radius: 40px;
+          
+        }
+        .whole-box{
+            /* background-color:#dcdcdcd9; */
+            display:flex;
+            justify-content: space-evenly;
+            padding-top:10px;
+            padding-bottom: 30px;
+        }
+        .box-1{
+            background-color: #F0FFF0;
+            height: 200px;
+            width:300px;
+            padding-bottom: 30px;
+            padding-top:10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .box-2{
+            background-color: #FFF0F5;
+            height: 200px;
+            width:300px;
+            padding-bottom: 30px;
+            padding-top:10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .box-3{
+            background-color: #FFFFF0;
+            height: 200px;
+            width:300px;
+            padding-bottom: 30px;
+            padding-top:10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .box-1.active {
+            transform: translateX(-350px);
+          }
+          
+          .box-2.active {
+            transform: translateY(-250px);
+          }
+          
+          .box-3.active {
+            transform: translateX(350px);
+          }
+          .whole-footer{
+            background-color: rgb(42, 26, 83);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            color:aliceblue;
+            height:200px
+          }
+          .i-list{
+            display:flex;
+            justify-content: space-between;
+          }
+          .colored-line {
+            border-bottom: 2px solid white;
+          }
+          i :hover{
+            background-color: #225873d9;
+            border-radius: 60%;
+          }
+.about-us1{
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding-left: 20px;
+  padding-top:150px ;
+  padding-bottom: 50px; 
+
+}
+.image2{
+  border-radius: 50%;
+  width: 300px;
+}
+.about-us-detail{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.slideshow-container {
+  width: 80%;
+  height: 150px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  position: absolute;
+  width: 80%;
+  height: 150px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.mySlides.active {
+  opacity: 1;
+}
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+img{
+  border-radius: 40%;
+}
+.images{
+  width:350px;
+  height: 350px;
+}
+.contact-us{
+  padding-left: 20px;
+  padding-right: 350px;
+  padding-bottom: 20px;
+}
